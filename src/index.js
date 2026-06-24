@@ -102,8 +102,8 @@ function buildUpstreamHeaders(request, workerHost) {
   }
 
   headers.set('Host', ORIGIN_HOST);
-  headers.set('X-Forwarded-Host', workerHost);
-  headers.set('X-Forwarded-Proto', 'https');
+  headers.set('Referer', ORIGIN_URL);
+  headers.set('Origin', ORIGIN_URL);
 
   const clientIp = request.headers.get('CF-Connecting-IP');
   if (clientIp) {
