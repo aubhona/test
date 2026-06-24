@@ -1,4 +1,4 @@
-name = "uz-do-kazankiu-proxy"
+name = "abd"
 main = "src/index.js"
 compatibility_date = "2024-09-23"
 
