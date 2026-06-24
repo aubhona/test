@@ -1,0 +1,9 @@
+name = "uz-do-kazankiu-proxy"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# Для деплоя через GitHub Actions переменные задаются в секретах репозитория:
+# CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+
+[observability]
+enabled = true
